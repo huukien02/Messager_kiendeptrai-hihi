@@ -329,11 +329,15 @@
 
 @media screen and (max-width: 376px) {
   .title {
+    // border: 1px solid #000;
     p {
-      padding-left: 0px;
-      width: 180px;
-      font-size: 15px;
-      margin-left: 270px;
+      width: 330px;
+      font-size: 12px;
+      // border: 1px solid #000;
+      i {
+        margin-left: 102px;
+        margin-top: 5px;
+      }
     }
   }
 
