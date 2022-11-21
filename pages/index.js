@@ -115,8 +115,6 @@ export default function Home() {
         message, username, usernameFriend, date, d
       })
         .then(res => {
-          // alert(res.data)
-          // window.location.reload(false);
         })
         .catch(err => {
           console.log(err);
